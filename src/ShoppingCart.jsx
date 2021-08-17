@@ -7,14 +7,7 @@ export default class ShoppingCart extends Component
     constructor(props){ 
         // console.log("Hello from constructor - Shopping Cart")
         super(props);
-        this.state = {products:[
-        {id:1, productName: "Website Addon1", price: 10000, quantity: 0},
-        {id:2, productName: "Website Addon2", price: 1000, quantity: 0},
-        {id:3, productName: "Website Addon3", price: 500, quantity: 0},
-        {id:4, productName: "Website Addon4", price: 100000, quantity: 0},
-        {id:5, productName: "Website Addon5", price: 1000000, quantity: 0},
-        {id:6, productName: "Website Addon6", price: 10, quantity: 0},
-    ],};
+        this.state = {products:[],};
 
     } 
 
@@ -22,7 +15,7 @@ export default class ShoppingCart extends Component
 
     render(){
         console.log("Hello from render method -Shopping cart")
-        return(<div className= "container-fluid"><h4>Shopping Cart</h4>
+        return(<div><h4>Shopping Cart</h4>
         
         <div className= "row">{this.state.products.map((prod) => {
             return( <Product key ={prod.id} 
@@ -38,8 +31,14 @@ export default class ShoppingCart extends Component
         );
     }
 
-    componentDidMount(){
+    componentDidMount = async ()=>{
         // console.log("Initial Phase -Shopping Cart")
+
+        var response =await fetch("http://localhost:5000/products", {method:"GET"});
+        var prods = await response.json();
+        this.setState({products:prods })
+        console.log(prods);
+        
     };
 
     componentDidUpdate(prevProps,prevState){

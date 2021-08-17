@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Wonder Woman's Bracelets",
+      "price": 1000,
+      "quantity": 0
+    },
+    {
+      "id": 2,
+      "productName": "The Green Lantern Ring",
+      "price": 200000000,
+      "quantity": 0
+    },
+    {
+      "id": 3,
+      "productName": "Batman's Grappling Gun",
+      "price": 100,
+      "quantity": 0
+    },
+    { "id": 4, "productName": "Superman's Cape", "price": 70, "quantity": 0 },
+    { "id": 5, "productName": "Flash's Suit", "price": 8000, "quantity": 0 },
+    {
+      "id": 6,
+      "productName": "Cyborg's Other Part",
+      "price": 600000000,
+      "quantity": 0
+    }
+  ],
+  "users": [
+    { "id": 1, "email": "batman@jleague.com", "password": "Batman" },
+    { "id": 2, "email": "superman@jleague.com", "password": "Superman" },
+    { "id": 3, "email": "lanter@jleague.com", "password": "Batman" }
+  ]
+}
