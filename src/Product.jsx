@@ -1,12 +1,18 @@
 import React, {Component} from "react";
 export default class Product extends Component {
 
-    state = {
+    constructor(props){ 
+        // console.log("Hello from constructor - Prooduct")
+        super(props);
+        this.state = {
         product: this.props.product
     };
+    }
+
+    
 
     render(){
-        console.log(this.props);
+        // console.log("Hello from render - Product");
         return(<div className = "col-lg-6">
         <div className="card m-2">
             <div className="card-body">
@@ -35,5 +41,18 @@ export default class Product extends Component {
         </div>
         </div>);
     }
+
+    componentDidMount(){
+        // console.log("Initial Phase -Product")
+    };
+
+     componentDidUpdate(){
+        // console.log("Updated Phase -Shopping Cart")
+    };
+
+
+    componentWillUnmount(){
+        // console.log("Component Unmount -Product")
+    };
 
 }
