@@ -15,7 +15,7 @@ export default class ShoppingCart extends Component
 
     render(){
         console.log("Hello from render method -Shopping cart")
-        return(<div><h4>Shopping Cart</h4>
+        return(<div><h4>Shopping Cart -- You'll Need to run the "react-db.json" file installing a JSON server to access this page </h4>
         
         <div className= "row">{this.state.products.map((prod) => {
             return( <Product key ={prod.id} 
