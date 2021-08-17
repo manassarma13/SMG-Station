@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SMG-Station/static/css/main.43761ddd.chunk.css",
+    "main.js": "/SMG-Station/static/js/main.1544f125.chunk.js",
+    "main.js.map": "/SMG-Station/static/js/main.1544f125.chunk.js.map",
+    "runtime-main.js": "/SMG-Station/static/js/runtime-main.faa0897b.js",
+    "runtime-main.js.map": "/SMG-Station/static/js/runtime-main.faa0897b.js.map",
+    "static/css/2.d8e79dc3.chunk.css": "/SMG-Station/static/css/2.d8e79dc3.chunk.css",
+    "static/js/2.6fb9b5f7.chunk.js": "/SMG-Station/static/js/2.6fb9b5f7.chunk.js",
+    "static/js/2.6fb9b5f7.chunk.js.map": "/SMG-Station/static/js/2.6fb9b5f7.chunk.js.map",
+    "index.html": "/SMG-Station/index.html",
+    "static/css/2.d8e79dc3.chunk.css.map": "/SMG-Station/static/css/2.d8e79dc3.chunk.css.map",
+    "static/css/main.43761ddd.chunk.css.map": "/SMG-Station/static/css/main.43761ddd.chunk.css.map",
+    "static/js/2.6fb9b5f7.chunk.js.LICENSE.txt": "/SMG-Station/static/js/2.6fb9b5f7.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/SMG-Station/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.faa0897b.js",
+    "static/css/2.d8e79dc3.chunk.css",
+    "static/js/2.6fb9b5f7.chunk.js",
+    "static/css/main.43761ddd.chunk.css",
+    "static/js/main.1544f125.chunk.js"
+  ]
+}
