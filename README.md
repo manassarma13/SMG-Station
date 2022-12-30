@@ -1,4 +1,4 @@
-# My React Teaching Content [1st Project] -MANAS PRATIM SARMA
+# 1st React App
 
 ## Getting Started with React
 Create New React App with Bootstrap 
